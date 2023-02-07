@@ -31,6 +31,18 @@ a{
     text-decoration: none;
 }
 
+.wave{
+    fill: #e4e5e6;
+    opacity: 7.5%;
+}
+
+.wave-bottom{
+    transform: rotate(180deg);
+    fill: #e4e5e6;
+    opacity: 7.5%;
+}
+
+
 /*---Header---*/
 
 #app-header{
@@ -40,7 +52,6 @@ a{
 /*Top-header*/
 
 #app-header .top-header{
-    
     padding-top: 5px;
     
     justify-content: space-between;
@@ -93,11 +104,11 @@ a{
     margin: 25px;
 
     font-size: 12px;
-    line-height: 18px
+    line-height: 18px;
 }
 
 .download>a{
-    
+
     color: black;
     padding: 12px 20px;
 }
@@ -116,36 +127,52 @@ a{
 /*---Bottom-Main---*/
 
 section{
-    height: 20rem;
-    padding: 2rem;
-    
+    padding: 3rem 0;
 }
 
 .image-section{
-    background-color: blue;
-    
-    height: 250px;
     width: 60%;
 }
 
 .text-section{
-    background-color: pink;
-    
-    height: 250px;
+  
     width: 40%;
+    line-height: 2rem;
+}
+
+.text-section h2{
+    padding: 2rem 0 1rem 7rem;
+}
+
+.text-section h6{
+    padding-left: 7rem;
+    font-size: 12px;
+    line-height: 20px; 
 }
 
 .special{
-    background-color: lightgray;
+    background-color: #e4e5e6;
+    margin-top: -4px;
 }
 
-.box{
-    height: 40rem;
+.text-box{ 
+    padding: 2rem 7rem;
+    text-align: center;
+    line-height: 1rem;
 }
 
-.box>.container{
-    height: 36rem;
-    background-color: green;
+.text-box>h2{
+    margin-bottom: 1rem;
+}
+
+.ready{
+    text-align: center;
+}
+
+.ready>.btn{
+    background-color: #8ea1e1;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 /*Footer*/
