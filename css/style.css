@@ -169,7 +169,7 @@ section{
     text-align: center;
 }
 
-.ready>.btn{
+.ready>.download{
     background-color: #8ea1e1;
     text-align: center;
     margin-top: 1rem;
@@ -187,17 +187,41 @@ section{
 }
 
 .section-footer:first-child{
-    width: 400px;
-    background-color: pink;
-    
+    width: 40%;
+
+}
+
+.section-footer h3,h5{
+    color:#7086d5;
+   
+}
+
+.section-footer img,span{
+    width: 1rem;
+    font-size: 10px;
+    color: white;
+}
+
+.social-bar>a{
+   color: white;
+   margin: 3px;
 }
 
 .section-footer{
     width: calc(100% / 4 );
+    padding: 2rem 1rem;
+
     height: 18rem;
-    
-    background-color: lightblue;
-    border: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li>a{
+    color: white;
+    font-size: 10px;
+    line-height: 20px;
 }
 
 hr{
@@ -205,9 +229,15 @@ hr{
 }
 
 .bottom-footer{
-    height: 2.5rem;
-    border: 1px solid black;
-    padding: 5px;
-
     justify-content: space-between;
+}
+
+.registrati{
+    background-color: #8ea1e1;
+
+}
+
+.registrati a{
+    color: white;
+    font-size: 10px;
 }
