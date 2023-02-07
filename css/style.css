@@ -32,14 +32,14 @@ a{
 }
 
 .wave{
-    fill: #e4e5e6;
-    opacity: 7.5%;
+    fill: #f6f6f6;
+    opacity: 3.5%;
 }
 
 .wave-bottom{
     transform: rotate(180deg);
-    fill: #e4e5e6;
-    opacity: 7.5%;
+    fill: #f6f6f6;
+    opacity: 3.5%;
 }
 
 
@@ -151,7 +151,7 @@ section{
 }
 
 .special{
-    background-color: #e4e5e6;
+    background-color: #f6f6f6;
     margin-top: -4px;
 }
 
@@ -179,7 +179,6 @@ section{
 
 #app-footer{
     background-color: #23272a;
-    height: 25rem;
     padding: 1rem; 
     
     padding-left: 28px;
@@ -188,11 +187,11 @@ section{
 
 .section-footer:first-child{
     width: 40%;
-
 }
 
 .section-footer h3,h5{
     color:#7086d5;
+    margin-bottom: 10px;
    
 }
 
@@ -210,8 +209,6 @@ section{
 .section-footer{
     width: calc(100% / 4 );
     padding: 2rem 1rem;
-
-    height: 18rem;
 }
 
 ul{
@@ -226,6 +223,11 @@ li>a{
 
 hr{
     margin: 20px 0;
+    
+    border: 0;
+    height: 2px;
+    background: #2e3544;
+    
 }
 
 .bottom-footer{
@@ -234,7 +236,6 @@ hr{
 
 .registrati{
     background-color: #8ea1e1;
-
 }
 
 .registrati a{
