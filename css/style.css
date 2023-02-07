@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family:"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .container{
     width: 60%;
     margin: auto;
@@ -13,47 +17,103 @@
     display: flex;
 }
 
-/*Header*/
+img{
+    max-width: 100%;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*---Header---*/
 
 #app-header{
     background-color: #3161e0;
-    border: 1px solid pink;
 }
 
-#app-header .top-header{
-    height: 2rem;
-    border: 1px solid black;
-    padding: 5px;
+/*Top-header*/
 
+#app-header .top-header{
+    
+    padding-top: 5px;
+    
     justify-content: space-between;
 }
 
-.logo, .login{
-    height: 100%;
-    width: 150px;
-    background-color: yellow;
+.logo img {
+    height: 20px;
 }
 
-li{
+.menu{
     display: inline-block;
 }
 
-.bottom-header{
-    height: 15rem;
-    border: 1px solid red;
-    padding: 5px;
-    
-    justify-content: space-around;
+.menu>a{
+    color: #d3ddf8;
+    font-size: 12px;
+    margin: 5px;
 }
 
-.banner{
-    height: 200px;
-    width: 400px;
-    background-color: coral;
-    margin: 15px 0;
+.sign-in{
+    background-color: white;
+    color: black;
+    font-size: 10px;
 }
 
 /*Main*/
+
+/*---Top-Main---*/
+
+.top-main{
+
+    position: relative;
+
+}
+
+.banner{
+    width: 500px;
+    
+    color: #ffffff;
+    text-align: center;
+
+    margin: 35px 0;
+
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.text-banner{
+    margin: 25px;
+
+    font-size: 12px;
+    line-height: 18px
+}
+
+.download>a{
+    
+    color: black;
+    padding: 12px 20px;
+}
+
+.open{
+    background-color: #23272a;
+    margin-left: 20px;
+}
+
+.open>a{
+    color: white;
+    padding: 12px 20px;
+    
+}
+
+/*---Bottom-Main---*/
 
 section{
     height: 20rem;
