@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/*Header*/
+
+#app-header{
+    background-color: #3161e0;
+    border: 1px solid pink;
+}
+
+#app-header .top-header{
+    height: 2rem;
+    border: 1px solid black;
+    padding: 5px;
+
+    justify-content: space-between;
+}
+
+.logo, .login{
+    height: 100%;
+    width: 150px;
+    background-color: yellow;
+}
+
+li{
+    display: inline-block;
+}
+
+.bottom-header{
+    height: 15rem;
+    border: 1px solid red;
+    padding: 5px;
+    
+    justify-content: space-around;
+}
+
+.banner{
+    height: 200px;
+    width: 400px;
+    background-color: coral;
+    margin: 15px 0;
+}
+
+/*Main*/
+
+section{
+    height: 20rem;
+    padding: 2rem;
+    
+}
+
+.image-section{
+    background-color: blue;
+    
+    height: 250px;
+    width: 60%;
+}
+
+.text-section{
+    background-color: pink;
+    
+    height: 250px;
+    width: 40%;
+}
+
+.special{
+    background-color: lightgray;
+}
+
+.box{
+    height: 40rem;
+}
+
+.box>.container{
+    height: 36rem;
+    background-color: green;
+}
+
+/*Footer*/
+
+#app-footer{
+    background-color: #23272a;
+    height: 25rem;
+    padding: 1rem; 
+    
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.section-footer:first-child{
+    width: 400px;
+    background-color: pink;
+    
+}
+
+.section-footer{
+    width: calc(100% / 4 );
+    height: 18rem;
+    
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.bottom-footer{
+    height: 2.5rem;
+    border: 1px solid black;
+    padding: 5px;
+
+    justify-content: space-between;
+}
